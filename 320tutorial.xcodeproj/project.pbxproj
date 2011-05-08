@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BF48CD1137630520036EA67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF48CD0137630520036EA67 /* UIKit.framework */; };
+		4BF48CD3137630520036EA67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF48CD2137630520036EA67 /* Foundation.framework */; };
+		4BF48CD5137630520036EA67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF48CD4137630520036EA67 /* CoreGraphics.framework */; };
+		4BF48CDB137630520036EA67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BF48CD9137630520036EA67 /* InfoPlist.strings */; };
+		4BF48CDE137630520036EA67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF48CDD137630520036EA67 /* main.m */; };
+		4BF48CE1137630520036EA67 /* _20tutorialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF48CE0137630520036EA67 /* _20tutorialAppDelegate.m */; };
+		4BF48CE4137630530036EA67 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BF48CE2137630530036EA67 /* MainWindow.xib */; };
+		4BF48CEB137630530036EA67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF48CD0137630520036EA67 /* UIKit.framework */; };
+		4BF48CEC137630530036EA67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF48CD2137630520036EA67 /* Foundation.framework */; };
+		4BF48CED137630530036EA67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF48CD4137630520036EA67 /* CoreGraphics.framework */; };
+		4BF48CF5137630530036EA67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BF48CF3137630530036EA67 /* InfoPlist.strings */; };
+		4BF48CF8137630530036EA67 /* _20tutorialTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4BF48CF7137630530036EA67 /* _20tutorialTests.h */; };
+		4BF48CFA137630530036EA67 /* _20tutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF48CF9137630530036EA67 /* _20tutorialTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BF48CEE137630530036EA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF48CC3137630520036EA67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BF48CCB137630520036EA67;
+			remoteInfo = 320tutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BF48CCC137630520036EA67 /* 320tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 320tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF48CD0137630520036EA67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4BF48CD2137630520036EA67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4BF48CD4137630520036EA67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4BF48CD8137630520036EA67 /* 320tutorial-Info.plist */ = {isa = PBXFileReference; path = "320tutorial-Info.plist"; sourceTree = "<group>"; };
+		4BF48CDA137630520036EA67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4BF48CDC137630520036EA67 /* 320tutorial-Prefix.pch */ = {isa = PBXFileReference; path = "320tutorial-Prefix.pch"; sourceTree = "<group>"; };
+		4BF48CDD137630520036EA67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BF48CDF137630520036EA67 /* _20tutorialAppDelegate.h */ = {isa = PBXFileReference; path = _20tutorialAppDelegate.h; sourceTree = "<group>"; };
+		4BF48CE0137630520036EA67 /* _20tutorialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _20tutorialAppDelegate.m; sourceTree = "<group>"; };
+		4BF48CE3137630530036EA67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4BF48CEA137630530036EA67 /* 320tutorialTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 320tutorialTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF48CF2137630530036EA67 /* 320tutorialTests-Info.plist */ = {isa = PBXFileReference; path = "320tutorialTests-Info.plist"; sourceTree = "<group>"; };
+		4BF48CF4137630530036EA67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4BF48CF6137630530036EA67 /* 320tutorialTests-Prefix.pch */ = {isa = PBXFileReference; path = "320tutorialTests-Prefix.pch"; sourceTree = "<group>"; };
+		4BF48CF7137630530036EA67 /* _20tutorialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _20tutorialTests.h; sourceTree = "<group>"; };
+		4BF48CF9137630530036EA67 /* _20tutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _20tutorialTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BF48CC9137630520036EA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF48CD1137630520036EA67 /* UIKit.framework in Frameworks */,
+				4BF48CD3137630520036EA67 /* Foundation.framework in Frameworks */,
+				4BF48CD5137630520036EA67 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF48CE6137630530036EA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF48CEB137630530036EA67 /* UIKit.framework in Frameworks */,
+				4BF48CEC137630530036EA67 /* Foundation.framework in Frameworks */,
+				4BF48CED137630530036EA67 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BF48CC1137630520036EA67 = {
+			isa = PBXGroup;
+			children = (
+				4BF48CD6137630520036EA67 /* 320tutorial */,
+				4BF48CF0137630530036EA67 /* 320tutorialTests */,
+				4BF48CCF137630520036EA67 /* Frameworks */,
+				4BF48CCD137630520036EA67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BF48CCD137630520036EA67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF48CCC137630520036EA67 /* 320tutorial.app */,
+				4BF48CEA137630530036EA67 /* 320tutorialTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BF48CCF137630520036EA67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BF48CD0137630520036EA67 /* UIKit.framework */,
+				4BF48CD2137630520036EA67 /* Foundation.framework */,
+				4BF48CD4137630520036EA67 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BF48CD6137630520036EA67 /* 320tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				4BF48CDF137630520036EA67 /* _20tutorialAppDelegate.h */,
+				4BF48CE0137630520036EA67 /* _20tutorialAppDelegate.m */,
+				4BF48CE2137630530036EA67 /* MainWindow.xib */,
+				4BF48CD7137630520036EA67 /* Supporting Files */,
+			);
+			path = 320tutorial;
+			sourceTree = "<group>";
+		};
+		4BF48CD7137630520036EA67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BF48CD8137630520036EA67 /* 320tutorial-Info.plist */,
+				4BF48CD9137630520036EA67 /* InfoPlist.strings */,
+				4BF48CDC137630520036EA67 /* 320tutorial-Prefix.pch */,
+				4BF48CDD137630520036EA67 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BF48CF0137630530036EA67 /* 320tutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BF48CF7137630530036EA67 /* _20tutorialTests.h */,
+				4BF48CF9137630530036EA67 /* _20tutorialTests.m */,
+				4BF48CF1137630530036EA67 /* Supporting Files */,
+			);
+			path = 320tutorialTests;
+			sourceTree = "<group>";
+		};
+		4BF48CF1137630530036EA67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BF48CF2137630530036EA67 /* 320tutorialTests-Info.plist */,
+				4BF48CF3137630530036EA67 /* InfoPlist.strings */,
+				4BF48CF6137630530036EA67 /* 320tutorialTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BF48CCB137630520036EA67 /* 320tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF48CFD137630530036EA67 /* Build configuration list for PBXNativeTarget "320tutorial" */;
+			buildPhases = (
+				4BF48CC8137630520036EA67 /* Sources */,
+				4BF48CC9137630520036EA67 /* Frameworks */,
+				4BF48CCA137630520036EA67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 320tutorial;
+			productName = 320tutorial;
+			productReference = 4BF48CCC137630520036EA67 /* 320tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BF48CE9137630530036EA67 /* 320tutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF48D00137630530036EA67 /* Build configuration list for PBXNativeTarget "320tutorialTests" */;
+			buildPhases = (
+				4BF48CE5137630530036EA67 /* Sources */,
+				4BF48CE6137630530036EA67 /* Frameworks */,
+				4BF48CE7137630530036EA67 /* Resources */,
+				4BF48CE8137630530036EA67 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF48CEF137630530036EA67 /* PBXTargetDependency */,
+			);
+			name = 320tutorialTests;
+			productName = 320tutorialTests;
+			productReference = 4BF48CEA137630530036EA67 /* 320tutorialTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BF48CC3137630520036EA67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Galic Design";
+			};
+			buildConfigurationList = 4BF48CC6137630520036EA67 /* Build configuration list for PBXProject "320tutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4BF48CC1137630520036EA67;
+			productRefGroup = 4BF48CCD137630520036EA67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BF48CCB137630520036EA67 /* 320tutorial */,
+				4BF48CE9137630530036EA67 /* 320tutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BF48CCA137630520036EA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF48CDB137630520036EA67 /* InfoPlist.strings in Resources */,
+				4BF48CE4137630530036EA67 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF48CE7137630530036EA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF48CF5137630530036EA67 /* InfoPlist.strings in Resources */,
+				4BF48CF8137630530036EA67 /* _20tutorialTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BF48CE8137630530036EA67 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF48CC8137630520036EA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF48CDE137630520036EA67 /* main.m in Sources */,
+				4BF48CE1137630520036EA67 /* _20tutorialAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF48CE5137630530036EA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF48CFA137630530036EA67 /* _20tutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BF48CEF137630530036EA67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BF48CCB137630520036EA67 /* 320tutorial */;
+			targetProxy = 4BF48CEE137630530036EA67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BF48CD9137630520036EA67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF48CDA137630520036EA67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4BF48CE2137630530036EA67 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF48CE3137630530036EA67 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4BF48CF3137630530036EA67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF48CF4137630530036EA67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BF48CFB137630530036EA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4BF48CFC137630530036EA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4BF48CFE137630530036EA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "320tutorial/320tutorial-Prefix.pch";
+				INFOPLIST_FILE = "320tutorial/320tutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4BF48CFF137630530036EA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "320tutorial/320tutorial-Prefix.pch";
+				INFOPLIST_FILE = "320tutorial/320tutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4BF48D01137630530036EA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/320tutorial.app/320tutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "320tutorialTests/320tutorialTests-Prefix.pch";
+				INFOPLIST_FILE = "320tutorialTests/320tutorialTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4BF48D02137630530036EA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/320tutorial.app/320tutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "320tutorialTests/320tutorialTests-Prefix.pch";
+				INFOPLIST_FILE = "320tutorialTests/320tutorialTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BF48CC6137630520036EA67 /* Build configuration list for PBXProject "320tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF48CFB137630530036EA67 /* Debug */,
+				4BF48CFC137630530036EA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF48CFD137630530036EA67 /* Build configuration list for PBXNativeTarget "320tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF48CFE137630530036EA67 /* Debug */,
+				4BF48CFF137630530036EA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BF48D00137630530036EA67 /* Build configuration list for PBXNativeTarget "320tutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF48D01137630530036EA67 /* Debug */,
+				4BF48D02137630530036EA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BF48CC3137630520036EA67 /* Project object */;
+}
