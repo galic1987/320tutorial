@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface _20tutorialAppDelegate : NSObject <UIApplicationDelegate> {
-
+   
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
